@@ -1,5 +1,9 @@
 from datetime import datetime
 
+"""Dotam gadskaitlim
+atgriež True, ja garais gads
+vai False, ja nav garaisa gads
+"""
 def vaiGaraisGads(gads):
     if gads % 4 == 0:
         if gads % 100 == 0:
@@ -12,6 +16,7 @@ def vaiGaraisGads(gads):
     else:
         return False
 
+""" Dotam mēnesim atgriež dienu skaitu """
 def dienuSkaits(menesis, garaisGads = False):
     if int(menesis) == 2:
         if garaisGads is True:
@@ -23,6 +28,7 @@ def dienuSkaits(menesis, garaisGads = False):
     else:
         return 31
 
+""" Pārbauda, vai ievaddati derīgi """
 def ievaddatuParbaude(datums):
     if len(datums) == 7:
         if datums[2] == "/":
@@ -30,6 +36,7 @@ def ievaddatuParbaude(datums):
                 return True
     return False
 
+""" Drukā kalendāru """
 def kalendars(dienuSkaits, menesis, gads):
     print("Pr Ot Tr Ce Pk Se Sv")  # dienu nosaukumi
     pirmaMenesaDiena = int(datetime(int(gads), int(menesis), 1).weekday() + 1)  # mēneša pirmā diena
