@@ -37,13 +37,13 @@ def test_dienuSkaits_30():
     assert dienuSkaits(11) == 30  # novembris
 
 def test_dienuSkaits_31():
-    assert dienuSkaits(1) == 31
-    assert dienuSkaits(3) == 31
-    assert dienuSkaits(5) == 31
-    assert dienuSkaits(7) == 31
-    assert dienuSkaits(8) == 31
-    assert dienuSkaits(10) == 31
-    assert dienuSkaits(12) == 31
+    assert dienuSkaits(1) == 31  # janvāris
+    assert dienuSkaits(3) == 31  # marts
+    assert dienuSkaits(5) == 31  # maijs
+    assert dienuSkaits(7) == 31  # jūlijs
+    assert dienuSkaits(8) == 31  # augusts
+    assert dienuSkaits(10) == 31  # oktobris
+    assert dienuSkaits(12) == 31  # decembris
 
 
 """ Ievaddatu pārbaude - testi """

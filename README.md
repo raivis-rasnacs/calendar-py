@@ -8,11 +8,11 @@ Kalendārajā gadā ir 12 mēneši. Katram mēnesim ir noteikts dienu skaits. Fe
 
 Algoritmam jādarbojas sekojoši:
 
-1. :heavy_check_mark: Programma prasa ievadīt datumu kā tekstu
-2. Pārbauda, vai datums ir derīgs
-3. Nosaka, vai dotais gads ir garais gads
-4. Nosaka dienu skaitu dotajam mēnesim un gada garumam
-5. :heavy_check_mark: Nosaka mēneša pirmo dienu un izdrukā kalendāru
+1. ☒ Programma prasa ievadīt datumu kā tekstu
+2. ☐ Pārbauda, vai datums ir derīgs
+3. ☐ Nosaka, vai dotais gads ir garais gads
+4. ☐ Nosaka dienu skaitu dotajam mēnesim un gada garumam
+5. ☒ Nosaka mēneša pirmo dienu un izdrukā kalendāru
 
 Papildini doto kodu ar iztrūkstošo algoritma daļu!
 
@@ -24,7 +24,7 @@ Citādi atgriež False.
 
 ### Funkcija vaiGaraisGads():
 
-![Leap_year](/flowchart.png)
+![Leap_year](flowchart.jpg)
 
 Ja gadskaitlis dalās gan ar 400, gan ar 4, gan ar 100 bez atlikuma, tad tas ir garais gads un atgriež True. Ja gadskaitlis dalās ar 4, bet nedalās ar 100, tad tas ir garais gads, atgriež True. Citos gadījumos tas nav garais gads, atgriež False.
 
@@ -37,4 +37,7 @@ Padoti divi parametri:
 Funkcija atgriež 28 vai 29 vai 30 vai 31 atkarībā no dotajiem parametriem
 
 ---
-Ja sastādītās funkcijas darbosies korekti, ekrānā ieraudzīsi kalendāru ievadītajam mēnesim un gadam.
+Testu failā test_calendar.py sastādīti 12 vienībtesti, kas pārbauda funkciju atgrieztos rezultātus pie dotiem ievaddatiem.
+
+
+Ja sastādītās funkcijas darbosies korekti, ekrānā izdrukāsies kalendārs ievadītajam mēnesim un gadam.
