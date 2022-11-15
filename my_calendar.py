@@ -62,6 +62,7 @@ def main():
     else:
         print("Ievaddati nederīgi!")
 
+        
 """ Testu veiksmīgai izpildei """
 if __name__ == "__main__":
     main()
