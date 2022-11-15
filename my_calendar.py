@@ -1,8 +1,10 @@
 from datetime import datetime
 
+# Uzvārds, klase
+
 """Dotam gadskaitlim
 atgriež True, ja garais gads
-vai False, ja nav garaisa gads
+vai False, ja nav garais gads
 """
 def vaiGaraisGads(gads):
     if gads % 4 == 0:
