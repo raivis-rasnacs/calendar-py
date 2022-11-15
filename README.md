@@ -1,7 +1,7 @@
 Ieskaites uzdevums. Kalendārs.
 ---
 ## Problēmas apraksts:
-Kalendārajā gadā ir 12 mēneši. Katram mēnesim ir noteikts dienu skaits. Februārī var būt 28 dienas īsajā gadā vai 29 dienas garajā gadā. Nedēļu skaits dažādos mēnešos var būt dažāds.
+Kalendārajā gadā ir 12 mēneši. Katram mēnesim ir noteikts dienu skaits. Februārī var būt 28 dienas īsajā gadā vai 29 dienas garajā gadā. Nedēļu skaits mēnešos var būt dažāds.
 
 ## Specifikācija:
 ### Koda 3. rindā komentārā ieraksti uzvārdu un klasi, citādi darbs netiks vērtēts!
