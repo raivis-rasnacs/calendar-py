@@ -49,9 +49,8 @@ def kalendars(dienuSkaits, menesis, gads):
         nedelasDiena += 1  # skaita nedēļas dienas
 
 
-""" Ievads 
+""" Ievads """
 datums = input("Datums (mm/gggg): ")
-kalendars(30, 9, 2022)
 
 if ievaddatuParbaude(datums) is True:
     menesis = int(datums[:2])  # atdala mēnesi
@@ -61,4 +60,3 @@ if ievaddatuParbaude(datums) is True:
     kalendars(dienas, menesis, gads)  # drukā kalendāru
 else:
     print("Ievaddati nederīgi!")
-"""
