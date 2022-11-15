@@ -50,13 +50,18 @@ def kalendars(dienuSkaits, menesis, gads):
 
 
 """ Ievads """
-datums = input("Datums (mm/gggg): ")
+def main():
+    datums = input("Datums (mm/gggg): ")
 
-if ievaddatuParbaude(datums) is True:
-    menesis = int(datums[:2])  # atdala mēnesi
-    gads = int(datums[3:])  # atdala gadu
+    if ievaddatuParbaude(datums) is True:
+        menesis = int(datums[:2])  # atdala mēnesi
+        gads = int(datums[3:])  # atdala gadu
 
-    dienas = dienuSkaits(menesis, vaiGaraisGads(gads))  # nosaka dienu skaitu
-    kalendars(dienas, menesis, gads)  # drukā kalendāru
-else:
-    print("Ievaddati nederīgi!")
+        dienas = dienuSkaits(menesis, vaiGaraisGads(gads))  # nosaka dienu skaitu
+        kalendars(dienas, menesis, gads)  # drukā kalendāru
+    else:
+        print("Ievaddati nederīgi!")
+
+""" Testu veiksmīgai izpildei """
+if __name__ == "__main__":
+    main()
