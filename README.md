@@ -8,14 +8,11 @@ Kalendārajā gadā ir 12 mēneši. Katram mēnesim ir noteikts dienu skaits. Fe
 
 Algoritmam jādarbojas sekojoši:
 
-<input type="checkbox"></input>
-
-1. Programma prasa ievadīt datumu kā tekstu
-2.  Pārbauda, vai datums ir derīgs
-3. Nosaka, vai dotais gads ir garais gads
-4. ☐ Nosaka dienu skaitu dotajam mēnesim un gada garumam
-5. Nosaka mēneša pirmo dienu
-6. Izdrukā kalendāru
+1. [X] Programma prasa ievadīt datumu kā tekstu
+2. [ ] Pārbauda, vai datums ir derīgs
+3. [ ] Nosaka, vai dotais gads ir garais gads
+4. [ ] Nosaka dienu skaitu dotajam mēnesim un gada garumam
+5. [X] Nosaka mēneša pirmo dienu un izdrukā kalendāru
 
 Papildini doto kodu ar iztrūkstošo algoritma daļu!
 
@@ -40,7 +37,4 @@ Padoti divi parametri:
 Funkcija atgriež 28 vai 29 vai 30 vai 31 atkarībā no dotajiem parametriem
 
 ---
-Ja sastādītās funkcijas darbosies korekti, ekrānā ieraudzīsi kalendāru dotajam mēnesim un gadam.
-
-
-
+Ja sastādītās funkcijas darbosies korekti, ekrānā ieraudzīsi kalendāru ievadītajam mēnesim un gadam.
