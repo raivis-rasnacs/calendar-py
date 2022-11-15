@@ -8,11 +8,11 @@ Kalendārajā gadā ir 12 mēneši. Katram mēnesim ir noteikts dienu skaits. Fe
 
 Algoritmam jādarbojas sekojoši:
 
-1. [X] Programma prasa ievadīt datumu kā tekstu
-2. [ ] Pārbauda, vai datums ir derīgs
-3. [ ] Nosaka, vai dotais gads ir garais gads
-4. [ ] Nosaka dienu skaitu dotajam mēnesim un gada garumam
-5. [X] Nosaka mēneša pirmo dienu un izdrukā kalendāru
+1. :heavy_check_mark: Programma prasa ievadīt datumu kā tekstu
+2. Pārbauda, vai datums ir derīgs
+3. Nosaka, vai dotais gads ir garais gads
+4. Nosaka dienu skaitu dotajam mēnesim un gada garumam
+5. :heavy_check_mark: Nosaka mēneša pirmo dienu un izdrukā kalendāru
 
 Papildini doto kodu ar iztrūkstošo algoritma daļu!
 
